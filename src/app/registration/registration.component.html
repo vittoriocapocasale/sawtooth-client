@@ -1,0 +1,11 @@
+<div class="container">
+  <form>
+    <div class="form-group">
+      <label for="privateKey">Private Key</label>
+      <input type="text" class="form-control" id="privateKey"
+      [(ngModel)]="privateKey" name="privateKey">
+    </div>
+  </form>
+  <button (click)="generateIdentity()">Generate</button>
+  <button (click)="signUp()">Sign up</button>
+</div>

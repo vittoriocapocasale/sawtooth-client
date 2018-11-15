@@ -1,0 +1,14 @@
+<div class="container">
+  <form>
+    <div class="form-group">
+      <label for="privateKey">Private Key</label>
+      <input type="text" class="form-control" id="privateKey"
+      [(ngModel)]="privateKey" name="privateKey">
+    </div>
+  </form>
+  <button (click)="login()">Login</button>
+  <div *ngIf=wrongCredentials
+      class="alert alert-danger">
+      Wrong credentials
+    </div>
+</div>

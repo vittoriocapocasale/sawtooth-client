@@ -1,0 +1,6 @@
+declare module 'sawtooth-sdk'
+declare module 'sawtooth-sdk/signing'
+declare module 'cbor'
+declare module 'crypto'
+declare module 'sawtooth-sdk'
+declare module 'request'
